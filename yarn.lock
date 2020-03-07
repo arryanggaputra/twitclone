@@ -1229,7 +1229,7 @@ postcss@^6.0.9:
     source-map "^0.6.1"
     supports-color "^5.4.0"
 
-postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.11, postcss@^7.0.14, postcss@^7.0.18, postcss@^7.0.21, postcss@^7.0.26, postcss@^7.0.27:
+postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.11, postcss@^7.0.14, postcss@^7.0.17, postcss@^7.0.18, postcss@^7.0.21, postcss@^7.0.26, postcss@^7.0.27:
   version "7.0.27"
   resolved "http://verdaccio.warungpintar.co/postcss/-/postcss-7.0.27.tgz#cc67cdc6b0daa375105b7c424a85567345fc54d9"
   integrity sha512-WuQETPMcW9Uf1/22HWUWP9lgsIC+KEHg2kozMflKjbeUtw9ujvFX6QmIfozaErDkmLWS9WEnEdEe6Uo9/BNTdQ==
@@ -1422,6 +1422,14 @@ svgo@^1.0.0:
     stable "^0.1.8"
     unquote "~1.1.1"
     util.promisify "~1.0.0"
+
+tailwindcss-plugin-multiple-lines@^1.0.1:
+  version "1.0.1"
+  resolved "http://verdaccio.warungpintar.co/tailwindcss-plugin-multiple-lines/-/tailwindcss-plugin-multiple-lines-1.0.1.tgz#2156de749b3acd6b1cf3b5206032527920b1ac4b"
+  integrity sha512-GuZAPg0a9a8Nhuvqr82W9VkUc55BoANJnj2CDiXHyyMBU2N/SPCfr+aaM1uzRhPpHBeDg6326gG8PqiOkadXKg==
+  dependencies:
+    lodash "^4.17.15"
+    postcss "^7.0.17"
 
 tailwindcss@^1.1.3:
   version "1.2.0"

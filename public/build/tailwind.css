@@ -13965,6 +13965,70 @@ video {
   transition-duration: 1000ms;
 }
 
+.clamp-0 {
+  -webkit-line-clamp: unset;;
+}
+
+.clamp-1 {
+  -webkit-line-clamp: 1;;
+}
+
+.clamp-2 {
+  -webkit-line-clamp: 2;;
+}
+
+.clamp-3 {
+  -webkit-line-clamp: 3;;
+}
+
+.clamp-4 {
+  -webkit-line-clamp: 4;;
+}
+
+.clamp-5 {
+  -webkit-line-clamp: 5;;
+}
+
+.clamp-6 {
+  -webkit-line-clamp: 6;;
+}
+
+.clamp-7 {
+  -webkit-line-clamp: 7;;
+}
+
+.clamp-8 {
+  -webkit-line-clamp: 8;;
+}
+
+.clamp-9 {
+  -webkit-line-clamp: 9;;
+}
+
+.box {
+  display: -webkit-box;;
+}
+
+.orient-vertical {
+  -webkit-box-orient: vertical;
+}
+
+.orient-horizontal {
+  -webkit-box-orient: horizontal;
+}
+
+.orient-axis-block {
+  -webkit-box-orient: block-axis;
+}
+
+.orient-inline-block {
+  -webkit-box-orient: block-inline;
+}
+
+.orient-unset {
+  -webkit-box-orient: unset;
+}
+
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;
@@ -27306,6 +27370,66 @@ video {
 
   .sm\:duration-1000 {
     transition-duration: 1000ms;
+  }
+
+  .sm\:clamp-0 {
+    -webkit-line-clamp: unset;;
+  }
+
+  .sm\:clamp-1 {
+    -webkit-line-clamp: 1;;
+  }
+
+  .sm\:clamp-2 {
+    -webkit-line-clamp: 2;;
+  }
+
+  .sm\:clamp-3 {
+    -webkit-line-clamp: 3;;
+  }
+
+  .sm\:clamp-4 {
+    -webkit-line-clamp: 4;;
+  }
+
+  .sm\:clamp-5 {
+    -webkit-line-clamp: 5;;
+  }
+
+  .sm\:clamp-6 {
+    -webkit-line-clamp: 6;;
+  }
+
+  .sm\:clamp-7 {
+    -webkit-line-clamp: 7;;
+  }
+
+  .sm\:clamp-8 {
+    -webkit-line-clamp: 8;;
+  }
+
+  .sm\:clamp-9 {
+    -webkit-line-clamp: 9;;
+  }
+
+  .sm\:orient-vertical {
+    -webkit-box-orient: vertical;
+  }
+
+  .sm\:orient-horizontal {
+    -webkit-box-orient: horizontal;
+  }
+
+  .sm\:orient-axis-block {
+    -webkit-box-orient: block-axis;
+  }
+
+  .sm\:orient-inline-block {
+    -webkit-box-orient: block-inline;
+  }
+
+  .sm\:orient-unset {
+    -webkit-box-orient: unset;
   }
 }
 
@@ -40651,6 +40775,66 @@ video {
   .md\:duration-1000 {
     transition-duration: 1000ms;
   }
+
+  .md\:clamp-0 {
+    -webkit-line-clamp: unset;;
+  }
+
+  .md\:clamp-1 {
+    -webkit-line-clamp: 1;;
+  }
+
+  .md\:clamp-2 {
+    -webkit-line-clamp: 2;;
+  }
+
+  .md\:clamp-3 {
+    -webkit-line-clamp: 3;;
+  }
+
+  .md\:clamp-4 {
+    -webkit-line-clamp: 4;;
+  }
+
+  .md\:clamp-5 {
+    -webkit-line-clamp: 5;;
+  }
+
+  .md\:clamp-6 {
+    -webkit-line-clamp: 6;;
+  }
+
+  .md\:clamp-7 {
+    -webkit-line-clamp: 7;;
+  }
+
+  .md\:clamp-8 {
+    -webkit-line-clamp: 8;;
+  }
+
+  .md\:clamp-9 {
+    -webkit-line-clamp: 9;;
+  }
+
+  .md\:orient-vertical {
+    -webkit-box-orient: vertical;
+  }
+
+  .md\:orient-horizontal {
+    -webkit-box-orient: horizontal;
+  }
+
+  .md\:orient-axis-block {
+    -webkit-box-orient: block-axis;
+  }
+
+  .md\:orient-inline-block {
+    -webkit-box-orient: block-inline;
+  }
+
+  .md\:orient-unset {
+    -webkit-box-orient: unset;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -53995,6 +54179,66 @@ video {
   .lg\:duration-1000 {
     transition-duration: 1000ms;
   }
+
+  .lg\:clamp-0 {
+    -webkit-line-clamp: unset;;
+  }
+
+  .lg\:clamp-1 {
+    -webkit-line-clamp: 1;;
+  }
+
+  .lg\:clamp-2 {
+    -webkit-line-clamp: 2;;
+  }
+
+  .lg\:clamp-3 {
+    -webkit-line-clamp: 3;;
+  }
+
+  .lg\:clamp-4 {
+    -webkit-line-clamp: 4;;
+  }
+
+  .lg\:clamp-5 {
+    -webkit-line-clamp: 5;;
+  }
+
+  .lg\:clamp-6 {
+    -webkit-line-clamp: 6;;
+  }
+
+  .lg\:clamp-7 {
+    -webkit-line-clamp: 7;;
+  }
+
+  .lg\:clamp-8 {
+    -webkit-line-clamp: 8;;
+  }
+
+  .lg\:clamp-9 {
+    -webkit-line-clamp: 9;;
+  }
+
+  .lg\:orient-vertical {
+    -webkit-box-orient: vertical;
+  }
+
+  .lg\:orient-horizontal {
+    -webkit-box-orient: horizontal;
+  }
+
+  .lg\:orient-axis-block {
+    -webkit-box-orient: block-axis;
+  }
+
+  .lg\:orient-inline-block {
+    -webkit-box-orient: block-inline;
+  }
+
+  .lg\:orient-unset {
+    -webkit-box-orient: unset;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -67338,5 +67582,65 @@ video {
 
   .xl\:duration-1000 {
     transition-duration: 1000ms;
+  }
+
+  .xl\:clamp-0 {
+    -webkit-line-clamp: unset;;
+  }
+
+  .xl\:clamp-1 {
+    -webkit-line-clamp: 1;;
+  }
+
+  .xl\:clamp-2 {
+    -webkit-line-clamp: 2;;
+  }
+
+  .xl\:clamp-3 {
+    -webkit-line-clamp: 3;;
+  }
+
+  .xl\:clamp-4 {
+    -webkit-line-clamp: 4;;
+  }
+
+  .xl\:clamp-5 {
+    -webkit-line-clamp: 5;;
+  }
+
+  .xl\:clamp-6 {
+    -webkit-line-clamp: 6;;
+  }
+
+  .xl\:clamp-7 {
+    -webkit-line-clamp: 7;;
+  }
+
+  .xl\:clamp-8 {
+    -webkit-line-clamp: 8;;
+  }
+
+  .xl\:clamp-9 {
+    -webkit-line-clamp: 9;;
+  }
+
+  .xl\:orient-vertical {
+    -webkit-box-orient: vertical;
+  }
+
+  .xl\:orient-horizontal {
+    -webkit-box-orient: horizontal;
+  }
+
+  .xl\:orient-axis-block {
+    -webkit-box-orient: block-axis;
+  }
+
+  .xl\:orient-inline-block {
+    -webkit-box-orient: block-inline;
+  }
+
+  .xl\:orient-unset {
+    -webkit-box-orient: unset;
   }
 }

@@ -1,7 +1,9 @@
+const multipleLinesPlugin = require("tailwindcss-plugin-multiple-lines");
+
 module.exports = {
   theme: {
-    extend: {},
+    extend: {}
   },
   variants: {},
-  plugins: [],
-}
+  plugins: [multipleLinesPlugin()]
+};
