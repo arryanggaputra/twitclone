@@ -11,59 +11,64 @@
     />
   </head>
   <body class="">
-    <nav class="bg-green-700 p-3 shadow-md px-6">
+    <!-- <nav class="bg-green-700 p-3 shadow-md px-6">
       <div class=" m-auto m-0 flex flex-row max-w-5xl">
         <div class="flex items-center flex-shrink-0 text-white mr-6">
           <span class="font-bold  text-3xl tracking-wide">Twitclone</span>
         </div>
       </div>
-    </nav>
+    </nav> -->
 
-    <div class="max-w-5xl flex m-auto mt-1">
-      <div class="sidebar w-3/12">
-        <ul>
-          <li class="mb-4">
-            <a
-              href="#"
-              class="inline-block px-5 font-bold text-xl py-2 text-gray-800 hover:text-green-900 hover:bg-green-400 rounded-full"
-              ><i class="fa fa-home mr-3"></i> Home</a
-            >
-          </li>
-          <li class="mb-4">
-            <a
-              href="#"
-              class="inline-block px-5 font-bold text-xl py-2 text-gray-800 hover:text-green-900 hover:bg-green-400 rounded-full"
-              ><i class="fa fa-hashtag mr-3"></i> Explore</a
-            >
-          </li>
-          <li class="mb-4">
-            <a
-              href="#"
-              class="inline-block px-5 font-bold text-xl py-2 text-gray-800 hover:text-green-900 hover:bg-green-400 rounded-full"
-              ><i class="fa fa-flag mr-3"></i> Notifications</a
-            >
-          </li>
-          <li class="mb-4">
-            <a
-              href="#"
-              class="inline-block px-5 font-bold text-xl py-2 text-gray-800 hover:text-green-900 hover:bg-green-400 rounded-full"
-              ><i class="fa fa-user mr-3"></i> Profile</a
-            >
-          </li>
-        </ul>
+    <div class="max-w-5xl flex m-auto">
+      <div class="sidebar w-3/12 h-screen relative">
+        <div class="fixed">
+          <ul>
+            <li class="mb-4">
+              <a
+                href="#"
+                class="inline-block px-4 font-bold text-3xl py-2 text-gray-800 hover:text-green-900 hover:bg-green-400 rounded-full"
+                ><i class="fa fa-dove"></i
+              ></a>
+            </li>
+            <li class="mb-4">
+              <a
+                href="#"
+                class="inline-block px-3 font-bold text-xl py-2 text-gray-800 hover:text-green-900 hover:bg-green-400 rounded-full"
+                ><i class="fa fa-home mx-2"></i> Home</a
+              >
+            </li>
+            <li class="mb-4">
+              <a
+                href="#"
+                class="inline-block px-3 font-bold text-xl py-2 text-gray-800 hover:text-green-900 hover:bg-green-400 rounded-full"
+                ><i class="fa fa-hashtag mx-2"></i> Explore</a
+              >
+            </li>
+            <li class="mb-4">
+              <a
+                href="#"
+                class="inline-block px-3 font-bold text-xl py-2 text-gray-800 hover:text-green-900 hover:bg-green-400 rounded-full"
+                ><i class="fa fa-flag mx-2"></i> Notifications</a
+              >
+            </li>
+            <li class="mb-4">
+              <a
+                href="#"
+                class="inline-block px-3 font-bold text-xl py-2 text-gray-800 hover:text-green-900 hover:bg-green-400 rounded-full"
+                ><i class="fa fa-user mx-2"></i> Profile</a
+              >
+            </li>
+          </ul>
+        </div>
       </div>
       <div class="w-9/12 border-l border-r">
         <div class="cover h-64 bg-gray-200"></div>
         <div class="header -mt-20 px-3  pb-4 flex flex-col  items-baseline">
           <div class="flex w-full justify-between items-end mb-4">
-            <div class="w-32 h-w-32 relative">
+            <div class="w-32 h-32 relative">
               <div
                 class="group w-full h-full rounded-full overflow-hidden shadow-inner text-center bg-purple table cursor-pointer border-4 border-green-800"
               >
-                <span
-                  class="hidden group-hover:table-cell text-white font-bold align-middle"
-                  >KR</span
-                >
                 <img
                   src="https://pickaface.net/gallery/avatar/unr_random_180410_1905_z1exb.png"
                   alt="lovely avatar"
@@ -105,6 +110,52 @@
             class="text-gray-500 hover:bg-green-100 border-b-2 border-transparent font-bold text-lg inline-block px-5 py-3"
             >Media</a
           >
+        </div>
+
+        <div class="timeline">
+          <div
+            class="feed flex flex-row items-start p-3 cursor-pointer hover:bg-gray-200"
+          >
+            <div class="w-24 w-24 relative">
+              <div
+                class="group w-full h-full rounded-full overflow-hidden shadow-inner text-center bg-purple table cursor-pointer border border-green-800"
+              >
+                <img
+                  src="https://pickaface.net/gallery/avatar/unr_random_180410_1905_z1exb.png"
+                  alt="lovely avatar"
+                  class="object-cover object-center w-full h-full visible group-hover:hidden"
+                />
+              </div>
+            </div>
+            <div class="pl-3">
+              <div class="text-left">
+                <div class="flex flex-row">
+                  <span class="font-bold">Arryangga Aliev</span>
+                  <span class="text-gray-600 pl-2">@arryanggaputra</span>
+                </div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Provident magnam ea omnis unde perferendis facilis, sed uisquam
+                explicabo, aut ducimus? Quisquam corrupti
+              </div>
+              <div>
+                <a
+                  href="#"
+                  class="inline-block px-2 font-bold text-lg py-1 text-gray-800 hover:text-green-900 hover:bg-green-200 rounded-full"
+                  ><i class="far fa-comment"></i>
+                </a>
+                <a
+                  href="#"
+                  class="inline-block px-2 font-bold text-lg py-1 text-gray-800 hover:text-green-900 hover:bg-green-200 rounded-full"
+                  ><i class="far fa-edit"></i>
+                </a>
+                <a
+                  href="#"
+                  class="inline-block px-2 font-bold text-lg py-1 text-red-600 hover:bg-red-200 rounded-full"
+                  ><i class="fa fa-trash"></i>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
